@@ -4,6 +4,12 @@
 ```
 npm install
 ```
+After installing vendor files, move 3x files from `config_files` folder:
+
+  1. `index.js` to `node_modules`->`vue-cli-plugin-browser-extension`
+  2. `manifest.js` to `node_modules`->`vue-cli-plugin-browser-extension`->`lib`
+  3. `webpack-extension-reloader.js` to `node_modules`->`vue-cli-plugin-browser-extension`->`lib`
+
 
 ### Compiles and hot-reloads for development
 ```
@@ -15,10 +21,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

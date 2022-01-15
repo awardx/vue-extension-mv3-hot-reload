@@ -4,7 +4,7 @@
 ```
 npm install
 ```
-After installing vendor files, move 3x files from `config_files` folder:
+After `npm install` move 3x files from `config_files` folder:
 
   1. `index.js` to `node_modules`->`vue-cli-plugin-browser-extension`
   2. `manifest.js` to `node_modules`->`vue-cli-plugin-browser-extension`->`lib`

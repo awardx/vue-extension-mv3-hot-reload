@@ -21,6 +21,10 @@ npm run serve
 npm run build
 ```
 
+### Community support needed - upgrading to Webpack 5
+Although this package is working fine, I stumbled upon a number of issues when upgrading/installing other packages, particularly Webpack 5 dependent. I've had a few attempts upgrading this repo to Webpack 5 which failed. 
+
+Any help upgrading to Webpack 5 would be highly appreciated :)
 
 
 ### Customize configuration
